@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.header .logo span {
+  color: var(--text-color-primary);
+  font-weight: 700;
+}
+
+#Mode {
+  padding: 0.5rem 0.7rem;
+  font-size: 1.3rem;
+  color: var(--cor-2);
+  cursor: pointer;
+}

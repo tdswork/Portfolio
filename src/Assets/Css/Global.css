@@ -1,0 +1,43 @@
+/* Tema padrão (dark mode) */
+:root {
+  --cor-1: #101214;
+  --cor-2: #ffffff;
+  --cor-3: #4a26fa;
+  --cor-3-hover: #5c3feb;
+  --cor-4: #414141;
+  --text-color-primary: rgba(255, 255, 255, 0.8);
+  --btn-color: rgba(255 255 255 /0.8);
+}
+
+/* Tema claro, quando <html> tiver a classe .light */
+:root.light {
+  --cor-1: #dcdfe4;
+  --cor-2: #000000;
+  --cor-3: #5c3feb;
+  --cor-4: #999999;
+  --text-color-primary: rgba(0 0 0 /0.8);
+  --btn-color: rgba(0 0 0 /0.8);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.5s ease;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: var(--cor-1);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
