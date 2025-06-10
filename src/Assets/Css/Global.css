@@ -17,7 +17,13 @@
   --cor-4: #999999;
   --text-color-primary: rgba(0 0 0 /0.8);
   --btn-color: rgba(0 0 0 /0.8);
+
+  .manutenção{
+    color: #999999;
+  }
 }
+
+
 
 * {
   margin: 0;
